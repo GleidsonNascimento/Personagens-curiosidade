@@ -1,0 +1,65 @@
+.container-name{
+    width: 87%;
+    padding: 20px;
+    margin: auto;
+    border: solid black 1px;
+    margin-top: 5px;
+    background-color: rgb(227, 237, 247);
+    box-shadow: 0px 0px 2px;
+}
+.page-curiosity{
+    background-color: rgb(206, 227, 245);
+}
+.container-name h2{
+    font-size: 28px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.container-curisity img{
+    
+    display: flex;
+    width: 65%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.container-curisity {
+    text-align: center;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.container-curisity p{
+    font-size: 18px;
+    text-decoration: underline;
+}
+.container-img-curisity img{
+    width: 39%;
+}
+.container-img-curisity{
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+@media (max-width:1024px){
+    .container-curisity img{
+        width: 80%;
+        
+    }
+    .container-curisity p{
+        font-size: 16px;
+        text-align:start;
+    }
+    .container-img-curisity img{
+        width: 45%;
+    }
+}
+@media (max-width:750px){
+    .container-img-curisity{
+        flex-direction: column;
+        margin: auto;
+    }
+    .container-img-curisity img{
+        width: 55%;
+    }
+}

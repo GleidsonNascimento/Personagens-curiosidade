@@ -1,0 +1,83 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.imagens {
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  width: 250px;
+  height: 260px;
+}
+.con-person {
+  display: flex;
+  background-color: white;
+  width: 250px;
+  border: solid 2px;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  text-align: start;
+  flex-direction: column;
+}
+.con-person p {
+  text-align: start;
+  justify-content: space-between;
+}
+
+.con- {
+  background-color: rgb(186, 255, 255);
+  border: solid 2px;
+  width: 275px;
+}
+.con-:hover {
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+span {
+  font-weight: bold;
+  margin-right: 5px;
+}
+.titulo {
+  text-align: center;
+}
+
+.titulo h3 {
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.titulo p {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 4px;
+  margin-bottom: 2px;
+  text-align: center;
+}
+
+.persons {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 40px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+.background {
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  padding-bottom: 8px;
+  background-image: url(../imagens/background.jpeg);
+}
+
+.trans {
+  background-color: rgba(255, 255, 255, 0.281);
+  width: 100%;
+}
+.page-curiosity {
+  background-color: white;
+}
